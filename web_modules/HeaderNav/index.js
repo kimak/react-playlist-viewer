@@ -31,6 +31,9 @@ export default class HeaderNav extends Component {
       return (
         <div>
           <AppBar
+            style={{
+                backgroundColor:"#ff5616"
+            }}
             title="React playlist Viewer"
             iconElementLeft={<IconButton onClick={this.handleToggle}><NavigationMenu /></IconButton>}
             iconElementRight={<InputArtist />} />

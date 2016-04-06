@@ -1,0 +1,635 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@3.8.3
+3 info using node@v5.10.1
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData exports-loader
+20 silly mapToRegistry name exports-loader
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry data Result {
+23 silly mapToRegistry   raw: 'exports-loader',
+23 silly mapToRegistry   scope: null,
+23 silly mapToRegistry   name: 'exports-loader',
+23 silly mapToRegistry   rawSpec: '',
+23 silly mapToRegistry   spec: 'latest',
+23 silly mapToRegistry   type: 'tag' }
+24 silly mapToRegistry uri https://registry.npmjs.org/exports-loader
+25 silly fetchNamedPackageData imports-loader
+26 silly mapToRegistry name imports-loader
+27 silly mapToRegistry using default registry
+28 silly mapToRegistry registry https://registry.npmjs.org/
+29 silly mapToRegistry data Result {
+29 silly mapToRegistry   raw: 'imports-loader',
+29 silly mapToRegistry   scope: null,
+29 silly mapToRegistry   name: 'imports-loader',
+29 silly mapToRegistry   rawSpec: '',
+29 silly mapToRegistry   spec: 'latest',
+29 silly mapToRegistry   type: 'tag' }
+30 silly mapToRegistry uri https://registry.npmjs.org/imports-loader
+31 silly fetchNamedPackageData lodash.debounce
+32 silly mapToRegistry name lodash.debounce
+33 silly mapToRegistry using default registry
+34 silly mapToRegistry registry https://registry.npmjs.org/
+35 silly mapToRegistry data Result {
+35 silly mapToRegistry   raw: 'lodash.debounce',
+35 silly mapToRegistry   scope: null,
+35 silly mapToRegistry   name: 'lodash.debounce',
+35 silly mapToRegistry   rawSpec: '',
+35 silly mapToRegistry   spec: 'latest',
+35 silly mapToRegistry   type: 'tag' }
+36 silly mapToRegistry uri https://registry.npmjs.org/lodash.debounce
+37 silly fetchNamedPackageData material-ui
+38 silly mapToRegistry name material-ui
+39 silly mapToRegistry using default registry
+40 silly mapToRegistry registry https://registry.npmjs.org/
+41 silly mapToRegistry data Result {
+41 silly mapToRegistry   raw: 'material-ui',
+41 silly mapToRegistry   scope: null,
+41 silly mapToRegistry   name: 'material-ui',
+41 silly mapToRegistry   rawSpec: '',
+41 silly mapToRegistry   spec: 'latest',
+41 silly mapToRegistry   type: 'tag' }
+42 silly mapToRegistry uri https://registry.npmjs.org/material-ui
+43 silly fetchNamedPackageData react
+44 silly mapToRegistry name react
+45 silly mapToRegistry using default registry
+46 silly mapToRegistry registry https://registry.npmjs.org/
+47 silly mapToRegistry data Result {
+47 silly mapToRegistry   raw: 'react',
+47 silly mapToRegistry   scope: null,
+47 silly mapToRegistry   name: 'react',
+47 silly mapToRegistry   rawSpec: '',
+47 silly mapToRegistry   spec: 'latest',
+47 silly mapToRegistry   type: 'tag' }
+48 silly mapToRegistry uri https://registry.npmjs.org/react
+49 silly fetchNamedPackageData react-dom
+50 silly mapToRegistry name react-dom
+51 silly mapToRegistry using default registry
+52 silly mapToRegistry registry https://registry.npmjs.org/
+53 silly mapToRegistry data Result {
+53 silly mapToRegistry   raw: 'react-dom',
+53 silly mapToRegistry   scope: null,
+53 silly mapToRegistry   name: 'react-dom',
+53 silly mapToRegistry   rawSpec: '',
+53 silly mapToRegistry   spec: 'latest',
+53 silly mapToRegistry   type: 'tag' }
+54 silly mapToRegistry uri https://registry.npmjs.org/react-dom
+55 silly fetchNamedPackageData react-redux
+56 silly mapToRegistry name react-redux
+57 silly mapToRegistry using default registry
+58 silly mapToRegistry registry https://registry.npmjs.org/
+59 silly mapToRegistry data Result {
+59 silly mapToRegistry   raw: 'react-redux',
+59 silly mapToRegistry   scope: null,
+59 silly mapToRegistry   name: 'react-redux',
+59 silly mapToRegistry   rawSpec: '',
+59 silly mapToRegistry   spec: 'latest',
+59 silly mapToRegistry   type: 'tag' }
+60 silly mapToRegistry uri https://registry.npmjs.org/react-redux
+61 silly fetchNamedPackageData react-router
+62 silly mapToRegistry name react-router
+63 silly mapToRegistry using default registry
+64 silly mapToRegistry registry https://registry.npmjs.org/
+65 silly mapToRegistry data Result {
+65 silly mapToRegistry   raw: 'react-router',
+65 silly mapToRegistry   scope: null,
+65 silly mapToRegistry   name: 'react-router',
+65 silly mapToRegistry   rawSpec: '',
+65 silly mapToRegistry   spec: 'latest',
+65 silly mapToRegistry   type: 'tag' }
+66 silly mapToRegistry uri https://registry.npmjs.org/react-router
+67 silly fetchNamedPackageData redux
+68 silly mapToRegistry name redux
+69 silly mapToRegistry using default registry
+70 silly mapToRegistry registry https://registry.npmjs.org/
+71 silly mapToRegistry data Result {
+71 silly mapToRegistry   raw: 'redux',
+71 silly mapToRegistry   scope: null,
+71 silly mapToRegistry   name: 'redux',
+71 silly mapToRegistry   rawSpec: '',
+71 silly mapToRegistry   spec: 'latest',
+71 silly mapToRegistry   type: 'tag' }
+72 silly mapToRegistry uri https://registry.npmjs.org/redux
+73 silly fetchNamedPackageData redux-thunk
+74 silly mapToRegistry name redux-thunk
+75 silly mapToRegistry using default registry
+76 silly mapToRegistry registry https://registry.npmjs.org/
+77 silly mapToRegistry data Result {
+77 silly mapToRegistry   raw: 'redux-thunk',
+77 silly mapToRegistry   scope: null,
+77 silly mapToRegistry   name: 'redux-thunk',
+77 silly mapToRegistry   rawSpec: '',
+77 silly mapToRegistry   spec: 'latest',
+77 silly mapToRegistry   type: 'tag' }
+78 silly mapToRegistry uri https://registry.npmjs.org/redux-thunk
+79 silly fetchNamedPackageData whatwg-fetch
+80 silly mapToRegistry name whatwg-fetch
+81 silly mapToRegistry using default registry
+82 silly mapToRegistry registry https://registry.npmjs.org/
+83 silly mapToRegistry data Result {
+83 silly mapToRegistry   raw: 'whatwg-fetch',
+83 silly mapToRegistry   scope: null,
+83 silly mapToRegistry   name: 'whatwg-fetch',
+83 silly mapToRegistry   rawSpec: '',
+83 silly mapToRegistry   spec: 'latest',
+83 silly mapToRegistry   type: 'tag' }
+84 silly mapToRegistry uri https://registry.npmjs.org/whatwg-fetch
+85 verbose request uri https://registry.npmjs.org/exports-loader
+86 verbose request no auth needed
+87 info attempt registry request try #1 at 15:43:38
+88 verbose request id a7066eb9ae6f4d4c
+89 http request GET https://registry.npmjs.org/exports-loader
+90 verbose request uri https://registry.npmjs.org/imports-loader
+91 verbose request no auth needed
+92 info attempt registry request try #1 at 15:43:38
+93 http request GET https://registry.npmjs.org/imports-loader
+94 verbose request uri https://registry.npmjs.org/material-ui
+95 verbose request no auth needed
+96 info attempt registry request try #1 at 15:43:38
+97 http request GET https://registry.npmjs.org/material-ui
+98 verbose request uri https://registry.npmjs.org/react-redux
+99 verbose request no auth needed
+100 info attempt registry request try #1 at 15:43:38
+101 http request GET https://registry.npmjs.org/react-redux
+102 verbose request uri https://registry.npmjs.org/react-router
+103 verbose request no auth needed
+104 info attempt registry request try #1 at 15:43:38
+105 http request GET https://registry.npmjs.org/react-router
+106 verbose request uri https://registry.npmjs.org/redux
+107 verbose request no auth needed
+108 info attempt registry request try #1 at 15:43:38
+109 http request GET https://registry.npmjs.org/redux
+110 verbose request uri https://registry.npmjs.org/redux-thunk
+111 verbose request no auth needed
+112 info attempt registry request try #1 at 15:43:38
+113 http request GET https://registry.npmjs.org/redux-thunk
+114 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+115 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+116 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+117 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+118 verbose request uri https://registry.npmjs.org/lodash.debounce
+119 verbose request no auth needed
+120 info attempt registry request try #1 at 15:44:13
+121 verbose etag "2GI8GEUQ8ZDQVJ3SRPTWFFF9R"
+122 http request GET https://registry.npmjs.org/lodash.debounce
+123 verbose request uri https://registry.npmjs.org/react-dom
+124 verbose request no auth needed
+125 info attempt registry request try #1 at 15:44:13
+126 verbose etag "88PO1XE53SHBKICXY70PXJ9YW"
+127 http request GET https://registry.npmjs.org/react-dom
+128 verbose request uri https://registry.npmjs.org/react
+129 verbose request no auth needed
+130 info attempt registry request try #1 at 15:44:13
+131 verbose etag "AJ3U8RP9EN2TPDKRLQ6CMQEZ1"
+132 http request GET https://registry.npmjs.org/react
+133 verbose request uri https://registry.npmjs.org/whatwg-fetch
+134 verbose request no auth needed
+135 info attempt registry request try #1 at 15:44:13
+136 verbose etag "2YDJWVPD1XWGFO7G0UB09K3W2"
+137 http request GET https://registry.npmjs.org/whatwg-fetch
+138 info attempt registry request try #2 at 15:44:23
+139 http request GET https://registry.npmjs.org/exports-loader
+140 info attempt registry request try #2 at 15:44:23
+141 http request GET https://registry.npmjs.org/imports-loader
+142 info attempt registry request try #2 at 15:44:23
+143 http request GET https://registry.npmjs.org/material-ui
+144 info attempt registry request try #2 at 15:44:23
+145 http request GET https://registry.npmjs.org/react-redux
+146 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+147 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+148 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+149 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+150 info attempt registry request try #2 at 15:44:58
+151 http request GET https://registry.npmjs.org/redux
+152 info attempt registry request try #2 at 15:44:58
+153 http request GET https://registry.npmjs.org/react-router
+154 info attempt registry request try #2 at 15:44:58
+155 http request GET https://registry.npmjs.org/redux-thunk
+156 info attempt registry request try #2 at 15:44:58
+157 verbose etag "2GI8GEUQ8ZDQVJ3SRPTWFFF9R"
+158 http request GET https://registry.npmjs.org/lodash.debounce
+159 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+160 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+161 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+162 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+163 info attempt registry request try #2 at 15:45:33
+164 verbose etag "88PO1XE53SHBKICXY70PXJ9YW"
+165 http request GET https://registry.npmjs.org/react-dom
+166 info attempt registry request try #2 at 15:45:33
+167 verbose etag "2YDJWVPD1XWGFO7G0UB09K3W2"
+168 http request GET https://registry.npmjs.org/whatwg-fetch
+169 info attempt registry request try #2 at 15:45:33
+170 verbose etag "AJ3U8RP9EN2TPDKRLQ6CMQEZ1"
+171 http request GET https://registry.npmjs.org/react
+172 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+173 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+174 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+175 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+176 info attempt registry request try #3 at 15:46:23
+177 http request GET https://registry.npmjs.org/exports-loader
+178 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+179 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+180 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+181 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+182 info attempt registry request try #3 at 15:46:58
+183 http request GET https://registry.npmjs.org/material-ui
+184 info attempt registry request try #3 at 15:46:58
+185 http request GET https://registry.npmjs.org/imports-loader
+186 info attempt registry request try #3 at 15:46:58
+187 http request GET https://registry.npmjs.org/react-redux
+188 info attempt registry request try #3 at 15:46:58
+189 http request GET https://registry.npmjs.org/redux
+190 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+191 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+192 silly fetchPackageMetaData Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+192 silly fetchPackageMetaData     at errnoException (dns.js:26:10)
+192 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:77:26)
+192 silly fetchPackageMetaData  error for exports-loader@^0.6.2 { [Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443]
+192 silly fetchPackageMetaData   code: 'ENOTFOUND',
+192 silly fetchPackageMetaData   errno: 'ENOTFOUND',
+192 silly fetchPackageMetaData   syscall: 'getaddrinfo',
+192 silly fetchPackageMetaData   hostname: 'registry.npmjs.org',
+192 silly fetchPackageMetaData   host: 'registry.npmjs.org',
+192 silly fetchPackageMetaData   port: 443 }
+193 info attempt registry request try #3 at 15:47:33
+194 http request GET https://registry.npmjs.org/react-router
+195 info attempt registry request try #3 at 15:47:33
+196 verbose etag "2GI8GEUQ8ZDQVJ3SRPTWFFF9R"
+197 http request GET https://registry.npmjs.org/lodash.debounce
+198 info attempt registry request try #3 at 15:47:33
+199 http request GET https://registry.npmjs.org/redux-thunk
+200 silly fetchPackageMetaData Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+200 silly fetchPackageMetaData     at errnoException (dns.js:26:10)
+200 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:77:26)
+200 silly fetchPackageMetaData  error for material-ui@^0.14.4 { [Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443]
+200 silly fetchPackageMetaData   code: 'ENOTFOUND',
+200 silly fetchPackageMetaData   errno: 'ENOTFOUND',
+200 silly fetchPackageMetaData   syscall: 'getaddrinfo',
+200 silly fetchPackageMetaData   hostname: 'registry.npmjs.org',
+200 silly fetchPackageMetaData   host: 'registry.npmjs.org',
+200 silly fetchPackageMetaData   port: 443 }
+201 info attempt registry request try #3 at 15:47:33
+202 verbose etag "88PO1XE53SHBKICXY70PXJ9YW"
+203 http request GET https://registry.npmjs.org/react-dom
+204 silly fetchPackageMetaData Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+204 silly fetchPackageMetaData     at errnoException (dns.js:26:10)
+204 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:77:26)
+204 silly fetchPackageMetaData  error for redux@^3.3.1 { [Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443]
+204 silly fetchPackageMetaData   code: 'ENOTFOUND',
+204 silly fetchPackageMetaData   errno: 'ENOTFOUND',
+204 silly fetchPackageMetaData   syscall: 'getaddrinfo',
+204 silly fetchPackageMetaData   hostname: 'registry.npmjs.org',
+204 silly fetchPackageMetaData   host: 'registry.npmjs.org',
+204 silly fetchPackageMetaData   port: 443 }
+205 silly fetchPackageMetaData Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+205 silly fetchPackageMetaData     at errnoException (dns.js:26:10)
+205 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:77:26)
+205 silly fetchPackageMetaData  error for react-redux@^4.4.0 { [Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443]
+205 silly fetchPackageMetaData   code: 'ENOTFOUND',
+205 silly fetchPackageMetaData   errno: 'ENOTFOUND',
+205 silly fetchPackageMetaData   syscall: 'getaddrinfo',
+205 silly fetchPackageMetaData   hostname: 'registry.npmjs.org',
+205 silly fetchPackageMetaData   host: 'registry.npmjs.org',
+205 silly fetchPackageMetaData   port: 443 }
+206 silly fetchPackageMetaData Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+206 silly fetchPackageMetaData     at errnoException (dns.js:26:10)
+206 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:77:26)
+206 silly fetchPackageMetaData  error for imports-loader@^0.6.5 { [Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443]
+206 silly fetchPackageMetaData   code: 'ENOTFOUND',
+206 silly fetchPackageMetaData   errno: 'ENOTFOUND',
+206 silly fetchPackageMetaData   syscall: 'getaddrinfo',
+206 silly fetchPackageMetaData   hostname: 'registry.npmjs.org',
+206 silly fetchPackageMetaData   host: 'registry.npmjs.org',
+206 silly fetchPackageMetaData   port: 443 }
+207 info attempt registry request try #3 at 15:48:08
+208 verbose etag "2YDJWVPD1XWGFO7G0UB09K3W2"
+209 http request GET https://registry.npmjs.org/whatwg-fetch
+210 info attempt registry request try #3 at 15:48:08
+211 verbose etag "AJ3U8RP9EN2TPDKRLQ6CMQEZ1"
+212 http request GET https://registry.npmjs.org/react
+213 silly fetchPackageMetaData Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+213 silly fetchPackageMetaData     at errnoException (dns.js:26:10)
+213 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:77:26)
+213 silly fetchPackageMetaData  error for react-router@^2.0.0 { [Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443]
+213 silly fetchPackageMetaData   code: 'ENOTFOUND',
+213 silly fetchPackageMetaData   errno: 'ENOTFOUND',
+213 silly fetchPackageMetaData   syscall: 'getaddrinfo',
+213 silly fetchPackageMetaData   hostname: 'registry.npmjs.org',
+213 silly fetchPackageMetaData   host: 'registry.npmjs.org',
+213 silly fetchPackageMetaData   port: 443 }
+214 silly fetchPackageMetaData Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+214 silly fetchPackageMetaData     at errnoException (dns.js:26:10)
+214 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:77:26)
+214 silly fetchPackageMetaData  error for redux-thunk@^1.0.3 { [Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443]
+214 silly fetchPackageMetaData   code: 'ENOTFOUND',
+214 silly fetchPackageMetaData   errno: 'ENOTFOUND',
+214 silly fetchPackageMetaData   syscall: 'getaddrinfo',
+214 silly fetchPackageMetaData   hostname: 'registry.npmjs.org',
+214 silly fetchPackageMetaData   host: 'registry.npmjs.org',
+214 silly fetchPackageMetaData   port: 443 }
+215 silly get cb [ 304, undefined ]
+216 verbose etag https://registry.npmjs.org/lodash.debounce from cache
+217 verbose get saving lodash.debounce to /Users/NStouls/.npm/registry.npmjs.org/lodash.debounce/.cache.json
+218 verbose correctMkdir /Users/NStouls/.npm correctMkdir not in flight; initializing
+219 silly get cb [ 304, undefined ]
+220 verbose etag https://registry.npmjs.org/react-dom from cache
+221 verbose get saving react-dom to /Users/NStouls/.npm/registry.npmjs.org/react-dom/.cache.json
+222 verbose correctMkdir /Users/NStouls/.npm correctMkdir already in flight; waiting
+223 silly fetchPackageMetaData Error: No compatible version found: lodash.debounce@^4.0.1
+223 silly fetchPackageMetaData Valid install targets:
+223 silly fetchPackageMetaData 3.1.1, 3.1.0, 3.0.3, 3.0.2, 3.0.1, 3.0.0, 2.4.1, 2.4.0, 2.3.0, 2.2.1, 2.2.0, 2.1.0, 2.0.0
+223 silly fetchPackageMetaData
+223 silly fetchPackageMetaData     at pickVersionFromRegistryDocument (/usr/local/lib/node_modules/npm/lib/fetch-package-metadata.js:156:16)
+223 silly fetchPackageMetaData     at /usr/local/lib/node_modules/npm/node_modules/iferr/index.js:13:50
+223 silly fetchPackageMetaData     at /usr/local/lib/node_modules/npm/lib/utils/pulse-till-done.js:19:8
+223 silly fetchPackageMetaData     at saved (/usr/local/lib/node_modules/npm/lib/cache/caching-client.js:168:7)
+223 silly fetchPackageMetaData     at /usr/local/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:210:7
+223 silly fetchPackageMetaData     at FSReqWrap.oncomplete (fs.js:82:15)
+223 silly fetchPackageMetaData  error for lodash.debounce@^4.0.1 [Error: No compatible version found: lodash.debounce@^4.0.1
+223 silly fetchPackageMetaData Valid install targets:
+223 silly fetchPackageMetaData 3.1.1, 3.1.0, 3.0.3, 3.0.2, 3.0.1, 3.0.0, 2.4.1, 2.4.0, 2.3.0, 2.2.1, 2.2.0, 2.1.0, 2.0.0
+223 silly fetchPackageMetaData ]
+224 silly resolveWithNewModule react-dom@0.14.7 checking installable status
+225 silly cache add args [ 'react-dom@^0.14.4', null ]
+226 verbose cache add spec react-dom@^0.14.4
+227 silly cache add parsed spec Result {
+227 silly cache add   raw: 'react-dom@^0.14.4',
+227 silly cache add   scope: null,
+227 silly cache add   name: 'react-dom',
+227 silly cache add   rawSpec: '^0.14.4',
+227 silly cache add   spec: '>=0.14.4 <0.15.0',
+227 silly cache add   type: 'range' }
+228 silly addNamed react-dom@>=0.14.4 <0.15.0
+229 verbose addNamed ">=0.14.4 <0.15.0" is a valid semver range for react-dom
+230 silly addNameRange { name: 'react-dom', range: '>=0.14.4 <0.15.0', hasData: false }
+231 silly mapToRegistry name react-dom
+232 silly mapToRegistry using default registry
+233 silly mapToRegistry registry https://registry.npmjs.org/
+234 silly mapToRegistry data Result {
+234 silly mapToRegistry   raw: 'react-dom',
+234 silly mapToRegistry   scope: null,
+234 silly mapToRegistry   name: 'react-dom',
+234 silly mapToRegistry   rawSpec: '',
+234 silly mapToRegistry   spec: 'latest',
+234 silly mapToRegistry   type: 'tag' }
+235 silly mapToRegistry uri https://registry.npmjs.org/react-dom
+236 verbose addNameRange registry:https://registry.npmjs.org/react-dom not in flight; fetching
+237 verbose get https://registry.npmjs.org/react-dom not expired, no request
+238 silly addNameRange number 2 { name: 'react-dom', range: '>=0.14.4 <0.15.0', hasData: true }
+239 silly addNameRange versions [ 'react-dom',
+239 silly addNameRange   [ '0.1.0',
+239 silly addNameRange     '0.14.0-beta1',
+239 silly addNameRange     '0.14.0-beta2',
+239 silly addNameRange     '0.14.0-beta3',
+239 silly addNameRange     '0.14.0-rc1',
+239 silly addNameRange     '0.14.0',
+239 silly addNameRange     '0.14.1',
+239 silly addNameRange     '0.14.2',
+239 silly addNameRange     '0.14.3',
+239 silly addNameRange     '0.14.4',
+239 silly addNameRange     '0.14.5',
+239 silly addNameRange     '0.14.6',
+239 silly addNameRange     '0.15.0-alpha.1',
+239 silly addNameRange     '0.14.7',
+239 silly addNameRange     '15.0.0-rc.1' ] ]
+240 silly addNamed react-dom@0.14.7
+241 verbose addNamed "0.14.7" is a plain semver version for react-dom
+242 silly cache afterAdd react-dom@0.14.7
+243 verbose afterAdd /Users/NStouls/.npm/react-dom/0.14.7/package/package.json not in flight; writing
+244 verbose correctMkdir /Users/NStouls/.npm correctMkdir not in flight; initializing
+245 verbose afterAdd /Users/NStouls/.npm/react-dom/0.14.7/package/package.json written
+246 silly get cb [ 304, undefined ]
+247 verbose etag https://registry.npmjs.org/whatwg-fetch from cache
+248 verbose get saving whatwg-fetch to /Users/NStouls/.npm/registry.npmjs.org/whatwg-fetch/.cache.json
+249 verbose correctMkdir /Users/NStouls/.npm correctMkdir not in flight; initializing
+250 silly resolveWithNewModule whatwg-fetch@0.11.0 checking installable status
+251 silly cache add args [ 'whatwg-fetch@^0.11.0', null ]
+252 verbose cache add spec whatwg-fetch@^0.11.0
+253 silly cache add parsed spec Result {
+253 silly cache add   raw: 'whatwg-fetch@^0.11.0',
+253 silly cache add   scope: null,
+253 silly cache add   name: 'whatwg-fetch',
+253 silly cache add   rawSpec: '^0.11.0',
+253 silly cache add   spec: '>=0.11.0 <0.12.0',
+253 silly cache add   type: 'range' }
+254 silly addNamed whatwg-fetch@>=0.11.0 <0.12.0
+255 verbose addNamed ">=0.11.0 <0.12.0" is a valid semver range for whatwg-fetch
+256 silly addNameRange { name: 'whatwg-fetch',
+256 silly addNameRange   range: '>=0.11.0 <0.12.0',
+256 silly addNameRange   hasData: false }
+257 silly mapToRegistry name whatwg-fetch
+258 silly mapToRegistry using default registry
+259 silly mapToRegistry registry https://registry.npmjs.org/
+260 silly mapToRegistry data Result {
+260 silly mapToRegistry   raw: 'whatwg-fetch',
+260 silly mapToRegistry   scope: null,
+260 silly mapToRegistry   name: 'whatwg-fetch',
+260 silly mapToRegistry   rawSpec: '',
+260 silly mapToRegistry   spec: 'latest',
+260 silly mapToRegistry   type: 'tag' }
+261 silly mapToRegistry uri https://registry.npmjs.org/whatwg-fetch
+262 verbose addNameRange registry:https://registry.npmjs.org/whatwg-fetch not in flight; fetching
+263 verbose get https://registry.npmjs.org/whatwg-fetch not expired, no request
+264 silly addNameRange number 2 { name: 'whatwg-fetch',
+264 silly addNameRange   range: '>=0.11.0 <0.12.0',
+264 silly addNameRange   hasData: true }
+265 silly addNameRange versions [ 'whatwg-fetch',
+265 silly addNameRange   [ '0.5.0',
+265 silly addNameRange     '0.6.0',
+265 silly addNameRange     '0.6.1',
+265 silly addNameRange     '0.7.0',
+265 silly addNameRange     '0.8.0',
+265 silly addNameRange     '0.8.1',
+265 silly addNameRange     '0.8.2',
+265 silly addNameRange     '0.9.0',
+265 silly addNameRange     '0.10.0',
+265 silly addNameRange     '0.10.1',
+265 silly addNameRange     '0.11.0' ] ]
+266 silly addNamed whatwg-fetch@0.11.0
+267 verbose addNamed "0.11.0" is a plain semver version for whatwg-fetch
+268 silly mapToRegistry name whatwg-fetch
+269 silly mapToRegistry using default registry
+270 silly mapToRegistry registry https://registry.npmjs.org/
+271 silly mapToRegistry data Result {
+271 silly mapToRegistry   raw: 'whatwg-fetch',
+271 silly mapToRegistry   scope: null,
+271 silly mapToRegistry   name: 'whatwg-fetch',
+271 silly mapToRegistry   rawSpec: '',
+271 silly mapToRegistry   spec: 'latest',
+271 silly mapToRegistry   type: 'tag' }
+272 silly mapToRegistry uri https://registry.npmjs.org/whatwg-fetch
+273 verbose addRemoteTarball https://registry.npmjs.org/whatwg-fetch/-/whatwg-fetch-0.11.0.tgz not in flight; adding
+274 verbose addRemoteTarball [ 'https://registry.npmjs.org/whatwg-fetch/-/whatwg-fetch-0.11.0.tgz',
+274 verbose addRemoteTarball   '46b1d18d0aa99955971ef1a2f5aac506add28815' ]
+275 info retry fetch attempt 1 at 15:48:43
+276 info attempt registry request try #1 at 15:48:43
+277 http fetch GET https://registry.npmjs.org/whatwg-fetch/-/whatwg-fetch-0.11.0.tgz
+278 silly get cb [ 304, undefined ]
+279 verbose etag https://registry.npmjs.org/react from cache
+280 verbose get saving react to /Users/NStouls/.npm/registry.npmjs.org/react/.cache.json
+281 verbose correctMkdir /Users/NStouls/.npm correctMkdir not in flight; initializing
+282 silly resolveWithNewModule react@0.14.7 checking installable status
+283 silly cache add args [ 'react@^0.14.4', null ]
+284 verbose cache add spec react@^0.14.4
+285 silly cache add parsed spec Result {
+285 silly cache add   raw: 'react@^0.14.4',
+285 silly cache add   scope: null,
+285 silly cache add   name: 'react',
+285 silly cache add   rawSpec: '^0.14.4',
+285 silly cache add   spec: '>=0.14.4 <0.15.0',
+285 silly cache add   type: 'range' }
+286 silly addNamed react@>=0.14.4 <0.15.0
+287 verbose addNamed ">=0.14.4 <0.15.0" is a valid semver range for react
+288 silly addNameRange { name: 'react', range: '>=0.14.4 <0.15.0', hasData: false }
+289 silly mapToRegistry name react
+290 silly mapToRegistry using default registry
+291 silly mapToRegistry registry https://registry.npmjs.org/
+292 silly mapToRegistry data Result {
+292 silly mapToRegistry   raw: 'react',
+292 silly mapToRegistry   scope: null,
+292 silly mapToRegistry   name: 'react',
+292 silly mapToRegistry   rawSpec: '',
+292 silly mapToRegistry   spec: 'latest',
+292 silly mapToRegistry   type: 'tag' }
+293 silly mapToRegistry uri https://registry.npmjs.org/react
+294 verbose addNameRange registry:https://registry.npmjs.org/react not in flight; fetching
+295 verbose get https://registry.npmjs.org/react not expired, no request
+296 silly addNameRange number 2 { name: 'react', range: '>=0.14.4 <0.15.0', hasData: true }
+297 silly addNameRange versions [ 'react',
+297 silly addNameRange   [ '0.0.1',
+297 silly addNameRange     '0.0.2',
+297 silly addNameRange     '0.0.3',
+297 silly addNameRange     '0.1.2',
+297 silly addNameRange     '0.2.0',
+297 silly addNameRange     '0.2.1',
+297 silly addNameRange     '0.2.2',
+297 silly addNameRange     '0.2.3',
+297 silly addNameRange     '0.2.4',
+297 silly addNameRange     '0.2.5',
+297 silly addNameRange     '0.2.6',
+297 silly addNameRange     '0.3.0',
+297 silly addNameRange     '0.3.4',
+297 silly addNameRange     '0.3.5',
+297 silly addNameRange     '0.5.0',
+297 silly addNameRange     '0.5.1',
+297 silly addNameRange     '0.5.2',
+297 silly addNameRange     '0.6.0',
+297 silly addNameRange     '0.6.1',
+297 silly addNameRange     '0.6.2',
+297 silly addNameRange     '0.6.3',
+297 silly addNameRange     '0.7.0',
+297 silly addNameRange     '0.7.1',
+297 silly addNameRange     '0.8.0',
+297 silly addNameRange     '0.9.0-rc1',
+297 silly addNameRange     '0.9.0',
+297 silly addNameRange     '0.10.0-rc1',
+297 silly addNameRange     '0.10.0',
+297 silly addNameRange     '0.11.0-rc1',
+297 silly addNameRange     '0.11.0',
+297 silly addNameRange     '0.11.1',
+297 silly addNameRange     '0.11.2',
+297 silly addNameRange     '0.12.0-rc1',
+297 silly addNameRange     '0.12.0',
+297 silly addNameRange     '0.12.1',
+297 silly addNameRange     '0.12.2',
+297 silly addNameRange     '0.13.0-alpha.1',
+297 silly addNameRange     '0.13.0-alpha.2',
+297 silly addNameRange     '0.13.0-beta.1',
+297 silly addNameRange     '0.13.0-beta.2',
+297 silly addNameRange     '0.13.0-rc1',
+297 silly addNameRange     '0.13.0-rc2',
+297 silly addNameRange     '0.13.0',
+297 silly addNameRange     '0.13.1',
+297 silly addNameRange     '0.13.2',
+297 silly addNameRange     '0.13.3',
+297 silly addNameRange     '0.14.0-alpha1',
+297 silly addNameRange     '0.14.0-alpha2',
+297 silly addNameRange     '0.14.0-alpha3',
+297 silly addNameRange     '0.14.0-beta1',
+297 silly addNameRange     '0.14.0-beta2',
+297 silly addNameRange     '0.14.0-beta3',
+297 silly addNameRange     '0.14.0-rc1',
+297 silly addNameRange     '0.14.0',
+297 silly addNameRange     '0.14.1',
+297 silly addNameRange     '0.14.2',
+297 silly addNameRange     '0.14.3',
+297 silly addNameRange     '0.14.4',
+297 silly addNameRange     '0.14.5',
+297 silly addNameRange     '0.14.6',
+297 silly addNameRange     '0.15.0-alpha.1',
+297 silly addNameRange     '0.14.7',
+297 silly addNameRange     '15.0.0-rc.1' ] ]
+298 silly addNamed react@0.14.7
+299 verbose addNamed "0.14.7" is a plain semver version for react
+300 silly cache afterAdd react@0.14.7
+301 verbose afterAdd /Users/NStouls/.npm/react/0.14.7/package/package.json not in flight; writing
+302 verbose correctMkdir /Users/NStouls/.npm correctMkdir not in flight; initializing
+303 verbose afterAdd /Users/NStouls/.npm/react/0.14.7/package/package.json written
+304 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+305 info attempt registry request try #2 at 15:49:28
+306 http fetch GET https://registry.npmjs.org/whatwg-fetch/-/whatwg-fetch-0.11.0.tgz
+307 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+308 info attempt registry request try #3 at 15:51:03
+309 http fetch GET https://registry.npmjs.org/whatwg-fetch/-/whatwg-fetch-0.11.0.tgz
+310 error fetch failed https://registry.npmjs.org/whatwg-fetch/-/whatwg-fetch-0.11.0.tgz
+311 warn retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+312 info retry fetch attempt 2 at 15:51:48
+313 info attempt registry request try #1 at 15:51:48
+314 http fetch GET https://registry.npmjs.org/whatwg-fetch/-/whatwg-fetch-0.11.0.tgz
+315 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+316 info attempt registry request try #2 at 15:52:33
+317 http fetch GET https://registry.npmjs.org/whatwg-fetch/-/whatwg-fetch-0.11.0.tgz
+318 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+319 info attempt registry request try #3 at 15:54:08
+320 http fetch GET https://registry.npmjs.org/whatwg-fetch/-/whatwg-fetch-0.11.0.tgz
+321 error fetch failed https://registry.npmjs.org/whatwg-fetch/-/whatwg-fetch-0.11.0.tgz
+322 warn retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+323 info retry fetch attempt 3 at 15:55:43
+324 info attempt registry request try #1 at 15:55:43
+325 http fetch GET https://registry.npmjs.org/whatwg-fetch/-/whatwg-fetch-0.11.0.tgz
+326 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+327 info attempt registry request try #2 at 15:56:28
+328 http fetch GET https://registry.npmjs.org/whatwg-fetch/-/whatwg-fetch-0.11.0.tgz
+329 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+330 info attempt registry request try #3 at 15:58:03
+331 http fetch GET https://registry.npmjs.org/whatwg-fetch/-/whatwg-fetch-0.11.0.tgz
+332 error fetch failed https://registry.npmjs.org/whatwg-fetch/-/whatwg-fetch-0.11.0.tgz
+333 silly rollbackFailedOptional Starting
+334 silly rollbackFailedOptional Finishing
+335 silly runTopLevelLifecycles Starting
+336 silly runTopLevelLifecycles Finishing
+337 silly install printInstalled
+338 verbose stack Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+338 verbose stack     at errnoException (dns.js:26:10)
+338 verbose stack     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:77:26)
+339 verbose cwd /Users/NStouls/Desktop/react/react-playlist-viewer
+340 error Darwin 14.0.0
+341 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install"
+342 error node v5.10.1
+343 error npm  v3.8.3
+344 error code ENOTFOUND
+345 error errno ENOTFOUND
+346 error syscall getaddrinfo
+347 error network getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+348 error network This is most likely not a problem with npm itself
+348 error network and is related to network connectivity.
+348 error network In most cases you are behind a proxy or have bad network settings.
+348 error network
+348 error network If you are behind a proxy, please make sure that the
+348 error network 'proxy' config is set properly.  See: 'npm help config'
+349 verbose exit [ 1, true ]

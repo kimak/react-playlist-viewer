@@ -6,10 +6,13 @@ export default {
     enpoints:{
 
       getSearch:(query, type)=>{
-        return apiPath+`search?query=${query}*&offset=0&limit=10&type=${type}`
+      return apiPath+`search?query=${query}*&offset=0&limit=10&type=${type}`
       },
       getArtist:(id)=>{
         return apiPath+`artists/${id}`
+      },
+      getToptracks:(id)=>{
+        return apiPath+`artists/${id}/top-tracks?country=FR`
       },
       getKinds: () =>{
         return apiExplorerPath+`api/genres`
