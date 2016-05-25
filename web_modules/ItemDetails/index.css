@@ -1,3 +1,6 @@
+h2{
+  margin-top : 15px;
+}
 .itemDetails{
   display: inline-block;
   width: 400px;
@@ -8,10 +11,9 @@
 }
 
 .image {
-  border-radius: 50px;
-  width: 100px;
+  border-radius: 15px;
   height: 100px;
-  margin-right: 20px;
+  margin : 10px;
   float: left;
 }
 

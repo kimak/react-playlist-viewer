@@ -19,13 +19,12 @@ const Item = ({name ="", image=null, kinds=[], songs=[]}) =>
         })
       }
     </div>
-    <ul className={styles.list}>
-      {
-        songs &&
-        songs.map((song, index) => {
-          return <li className={styles.song} key={index}>{song.name}</li>
-        })
-      }
+
+    <h2 className={styles.h2}>Tournée</h2>
+    
+
+    <ul>
+
     </ul>
 
 </div>)

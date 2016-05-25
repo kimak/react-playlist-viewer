@@ -57,8 +57,11 @@ export function get(id) {
             ERROR,
         ],
         promise: (
-            fetchJSON(consts.api.enpoints.getArtist(id), {
-                method: "GET"
+            fetchJSON(consts.api.enpoints.getTour(id), {
+                method: "GET",
+                headers : {
+                  "Content-Type": "application/json",
+                }
             })
         )
     }
