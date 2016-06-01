@@ -9,7 +9,7 @@ Pour le design, j'ai utilisé la librairie Material UI.
 http://www.material-ui.com/#/
 
 ## Améliorations
-- Afficher les albums ous forme de Grid List.
+- Afficher les albums sous forme de Grid List.
 - Afficher les artists similaires sur la fiche artist
 - Afficher la liste des concerts à venir du groupe (On n'avais pas pu car l'API ne voulait pas renvoyer de résultat via les appel en JS, voir erreur ci-dessous)
 
