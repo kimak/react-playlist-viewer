@@ -89,11 +89,7 @@ export default class PageArtist extends Component {
       album,
     } = this.props
 
-  console.log(album);
-
     return (
-
-
       <div className="artist">
       {
         artist && !artist.loading &&
@@ -103,8 +99,7 @@ export default class PageArtist extends Component {
         kinds={artist.genres}
         songs={toptracks.tracks}
         albums={album.items}
-         />
-
+        />
       }
       </div>
     )

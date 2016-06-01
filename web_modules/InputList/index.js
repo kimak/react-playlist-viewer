@@ -63,7 +63,6 @@ export default class List extends Component {
       const onChangeHandler = (onInputChange) ? debounce(onInputChange,300) :  this.onChangeHandler
       let selectedIndex = 0;
 
-
       return (
         <div className={styles.list}>
             {
@@ -86,6 +85,5 @@ export default class List extends Component {
             }
             </div>
         </div>)
-
     }
 }

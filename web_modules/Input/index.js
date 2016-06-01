@@ -45,7 +45,6 @@ export default class Input extends Component {
     }
 
     render() {
-
         const {
             type,
             name,

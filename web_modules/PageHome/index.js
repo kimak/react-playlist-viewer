@@ -26,11 +26,10 @@ export default class PageHome extends Component {
   };
 
   render() {
-
     return (
       <div className="background">
-      <h1>Search Artists</h1>
-<p>Vous pouvez dés maintenant rechercher un artiste via le moteur de recherche en haut à droite.</p>
+        <h1>Search Artists</h1>
+        <p>Vous pouvez dés maintenant rechercher un artiste via le moteur de recherche en haut à droite.</p>
       </div>
     )
   }

@@ -33,14 +33,11 @@ export default class InputArtist extends Component {
       getArtists : () => {}
   };
 
-
-
   onInputArtistChange = (value) => {
       this.props.getArtists(value)
   };
 
   selectArtist = (item) => {
-  
       this.context.router.push(`/artist/${item.id}`)
   };
 
