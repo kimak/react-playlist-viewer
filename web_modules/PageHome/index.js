@@ -3,6 +3,10 @@ import fetchJSON from "app/fetchJSON";
 import consts from "app/consts"
 import InputList from "InputList";
 
+import styles from "./index.css"
+
+import InputArtist from 'InputArtist'
+
 export default class PageHome extends Component {
 
   state = {
@@ -24,10 +28,9 @@ export default class PageHome extends Component {
   render() {
 
     return (
-      <div>
-        <InputList title="Kind"
-              items={this.state.kinds}
-              limit={10} />
+      <div className="background">
+      <h1>Search Artists</h1>
+<p>Vous pouvez dés maintenant rechercher un artiste via le moteur de recherche en haut à droite.</p>
       </div>
     )
   }

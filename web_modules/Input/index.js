@@ -9,7 +9,9 @@ export default class Input extends Component {
         onChange: PropTypes.func,
         name: PropTypes.string,
         value: PropTypes.string,
-        placeholder: PropTypes.string
+        placeholder: PropTypes.string,
+        onFocus :PropTypes.func,
+        onBlur:PropTypes.func
     };
 
     static defaultProps = {
@@ -57,7 +59,9 @@ export default class Input extends Component {
                 name={name}
                 placeholder={placeholder}
                 value={this.state.value}
-                onChange={this.onChangeHandler} />
+                onChange={this.onChangeHandler}
+                onFocus={this.props.onFocus}
+                onBlur={this.props.onBlur} />
         )
 
     }

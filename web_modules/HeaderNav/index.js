@@ -29,15 +29,18 @@ export default class HeaderNav extends Component {
     render() {
 
       return (
-        <div>
+        <div className="appbar">
+
           <AppBar
             title="React playlist Viewer"
+            style={{backgroundColor:"#34495e"}}
             iconElementLeft={<IconButton onClick={this.handleToggle}><NavigationMenu /></IconButton>}
-            iconElementRight={<InputArtist />} />
+            iconElementRight={<InputArtist  />} />
             <LeftNav
                 open={this.state.open}
                 onRequestChange={(open) => {}}>
                     <AppBar
+                        style={{backgroundColor:"#34495e"}}
                         title="Menu"
                         iconElementLeft={<IconButton onClick={this.handleToggle}><NavigationClose /></IconButton>}	/>
                     <IndexLink to="/" activeClassName={styles.activeLink} className={styles.link}>

@@ -5,6 +5,7 @@ import consts from "app/consts"
 import InputList from "InputList";
 
 import { get as getArtists } from "app/reducers/artists"
+import { get as getTopTracks } from "app/reducers/toptracks"
 
 import styles from "./index.css";
 
@@ -32,11 +33,14 @@ export default class InputArtist extends Component {
       getArtists : () => {}
   };
 
+
+
   onInputArtistChange = (value) => {
       this.props.getArtists(value)
   };
 
   selectArtist = (item) => {
+  
       this.context.router.push(`/artist/${item.id}`)
   };
 
@@ -47,7 +51,8 @@ export default class InputArtist extends Component {
               onItemClick={this.selectArtist}
               items={this.props.artists.results}
               autoFilter={true}
-              onInputChange={this.onInputArtistChange} />
+              onInputChange={this.onInputArtistChange}
+             />
       </div>
     )
   }

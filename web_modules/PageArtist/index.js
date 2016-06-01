@@ -4,17 +4,21 @@ import fetchJSON from "app/fetchJSON";
 import consts from "app/consts"
 
 import { get as getArtist } from "app/reducers/artist"
-import { get as getTour } from "app/reducers/tour"
+import { get as getTopTracks } from "app/reducers/toptracks"
+import { get as getAlbums} from "app/reducers/albums"
 
 import ItemDetails from "ItemDetails"
 
 @connect(
   (state) => ({
-    artist : state.artist
+    artist : state.artist,
+    toptracks : state.toptracks,
+    album : state.albums
   }),
   (dispatch) => ({
     getArtist : (value) => dispatch(getArtist(value)),
-    getTour:(name) => dispatch(getTour(name)),
+    getTopTracks:(name) => dispatch(getTopTracks(name)),
+    getAlbums:(name) => dispatch(getAlbums(name))
   })
 )
 export default class PageArtist extends Component {
@@ -25,29 +29,34 @@ export default class PageArtist extends Component {
     }),
     artists : PropTypes.object,
     getArtist : PropTypes.func,
-    getTour: PropTypes.func
+    getTopTracks: PropTypes.func,
+    getAlbums : PropTypes.func
   };
 
   static defaultProps = {
     params: {},
     artist : null,
+    toptrack : null,
     getArtist : () => {},
-      getTour : () => {}
+    getTopTracks : () => {},
+    getAlbums : () => {}
   };
   componentDidMount(){
-
     const {
       params,
       getArtist,
-      getTour
+      getTopTracks,
+      getAlbums
     } = this.props
 
     if(params.artistId)  {
       getArtist(params.artistId)
     }
-
-    if (params.artist) {
-        getTour(encodeURI(params.artist).toLowerCase())
+    if(params.artistId)  {
+      getTopTracks(params.artistId)
+    }
+    if (params.artistId) {
+      getAlbums(params.artistId)
     }
   }
 
@@ -55,34 +64,47 @@ export default class PageArtist extends Component {
     const {
       params,
       getArtist,
-      getTour,
+      getTopTracks,
+      getAlbums
     } = this.props
 
     if(nextProps.params.artistId!=params.artistId){
       getArtist(nextProps.params.artistId)
     }
-
-    if (nextProps.artist.name && this.props.artist.name != nextProps.artist.name) {
-        getTour(encodeURI(nextProps.artist.name).toLowerCase())
+    if(nextProps.params.artistId!=params.artistId){
+      getTopTracks(nextProps.params.artistId)
     }
+    if(nextProps.params.artistId!=params.artistId){
+      getAlbums(nextProps.params.artistId)
+    }
+
   }
 
   render() {
+
     const {
       params,
       artist,
-      tour,
+      toptracks,
+      album,
     } = this.props
 
+  console.log(album);
+
     return (
-      <div>
+
+
+      <div className="artist">
       {
         artist && !artist.loading &&
         <ItemDetails name={artist.name}
         image={artist.picture ? artist.picture.url : null}
+        followers={artist.followers + " Followers"}
         kinds={artist.genres}
-        songs={[{name:"..."},{name:"..."},{name:"..."}]}
-        tour  />
+        songs={toptracks.tracks}
+        albums={album.items}
+         />
+
       }
       </div>
     )

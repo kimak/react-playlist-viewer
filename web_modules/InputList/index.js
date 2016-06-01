@@ -27,8 +27,19 @@ export default class List extends Component {
     };
 
     state = {
-        inputValue: ""
+        inputValue: "",
+          open: false
     };
+
+    onfocus = () =>{
+      this.setState({open: true});
+    };
+
+    onblur = () => {
+      setTimeout(()=>{
+            this.setState({open: false});
+      }, 100);
+    }
 
     onChangeHandler = (value) => {
       this.setState({inputValue: value})
@@ -52,14 +63,15 @@ export default class List extends Component {
       const onChangeHandler = (onInputChange) ? debounce(onInputChange,300) :  this.onChangeHandler
       let selectedIndex = 0;
 
+
       return (
         <div className={styles.list}>
             {
-                <Input placeholder={title} onChange={onChangeHandler}/>
+                <Input placeholder={title} onChange={onChangeHandler} onBlur={this.onblur} onFocus={this.onfocus}/>
             }
             <div className={styles.results}>
             {
-              items &&
+              items && this.state.open &&
               items.map((item, index) => {
 
                 const isFilter = (!autoFilter || autoFilter && this.filterName(item))

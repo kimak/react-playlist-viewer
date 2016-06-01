@@ -6,3 +6,10 @@
   font-weight: bold;
   text-decoration: underline;
 }
+
+.appbar {
+  background-color: #34495e;
+}
+body{
+  background-color: #dedede;
+}

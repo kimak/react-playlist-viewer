@@ -1,19 +1,17 @@
 import fetchJSON from "app/fetchJSON"
 import consts from "app/consts"
 
-export const GET = "molotov/artist/GET"
-export const SET = "molotov/artist/SET"
-export const ERROR = "molotov/artist/ERROR"
+export const GET = "molotov/toptracks/GET"
+export const SET = "molotov/toptracks/SET"
+export const ERROR = "molotov/toptracks/ERROR"
 
 const initialState = {
 
 }
 
 const format = (data) => {
-    const {name, genres, images, followers} = data
-    let result = {name, genres, followers}
-    if(images && images.length>2) result.picture = images[0]
-    result.followers = result.followers.total
+    const {tracks} = data
+    let result = {tracks}
     return result
 }
 
@@ -25,11 +23,13 @@ export default function reducer(state = initialState, action) {
         return {
             wait:true,
         }
+
     case SET:
+    console.log("tracks");
+
       return {
            ...format(action.response)
       }
-
 
     case ERROR:
         /* eslint-disable no-console */
@@ -49,6 +49,7 @@ export default function reducer(state = initialState, action) {
 
 // redux actions
 export function get(id) {
+
     return {
         types: [
             GET,
@@ -56,8 +57,11 @@ export function get(id) {
             ERROR,
         ],
         promise: (
-            fetchJSON(consts.api.enpoints.getArtist(id), {
-                method: "GET"
+            fetchJSON(consts.api.enpoints.getTopTracks(id), {
+                method: "GET",
+                headers : {
+                  "Content-Type": "application/json",
+                }
             })
         )
     }
