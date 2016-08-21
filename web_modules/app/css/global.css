@@ -1,0 +1,26 @@
+body {
+  background-color : #484848;
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  display: flex;
+  min-height: 100vh;
+}
+input {
+  margin: auto;
+}
+
+
+:root {
+  --white: #FFF;
+}
+body {
+  background-color: #EFEFEF;
+}
+div {
+  background-color: #34495e;
+}
+
+@custom-media --small-viewport (max-width: 1024px);
